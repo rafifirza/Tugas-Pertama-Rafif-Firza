@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 style="text-align: center;">Form Pendaftaran</h1>
+
+    <img src="danshi kokousei no nichijou.jpg" alt="gambar anime" width="200" height="100"><br>
+
+    <form action="">
+    Nama : <input type="text" placeholder="ketikkan namamu">
+    <br>
+    Tanggal Lahir : <input type="date">
+    <br>
+    Kota lahir : <input type="text" list="kota_lahir" name="nama_lengkap">
+    <datalist id="kota_lahir">
+        <option value="Semarang">Semarang</option> 
+        <option value="Yogyakarta">Yogyakarta</option>
+    </datalist>
+    <br>
+    Gender : 
+    <input type="radio" name="gender" value="Pria" style="cursor: pointer;">
+    Pria
+    <input type="radio" name="gender" value="Wanita" style="cursor: pointer;">
+    Wanita
+    <br>
+    Agama : <input type="text" name="agama" list="agama_pendaftar">
+    <datalist id="agama_pendaftar">
+    <option value="Islam">Islam</option>
+    <option value="Hindu">Hindu</option>
+    <option value="Kristen">Kristen</option>
+    <option value="Katolik">Katolik</option>
+    <option value="Buddha">Buddha</option>
+    <option value="Konghucu">Konghucu</option>
+    </datalist>
+    <br>
+    Hobi : <input type="text" name="hobi" list="hobi_pendaftar">
+    <datalist id="hobi_pendaftar">
+        <option value="Makan">Makan</option>
+        <option value="Tidur">Tidur</option>
+        <option value="Belajar">Belajar</option>
+        <option value="Sekolah">Sekolah</option>
+    </datalist> 
+    </form>
+
+    
+
+</body>
+</html>
